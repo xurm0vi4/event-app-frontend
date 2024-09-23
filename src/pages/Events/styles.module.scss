@@ -1,0 +1,22 @@
+.wrapper {
+  max-width: 1400px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 20px;
+}
+.title {
+  font-size: 30px;
+}
+.select {
+  margin-top: 10px;
+  & select {
+    cursor: pointer;
+  }
+}
+.events {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-rows: 1fr;
+  gap: 20px;
+  padding: 20px 0;
+}

@@ -1,0 +1,14 @@
+.wrapper {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 1px 0px, rgba(0, 0, 0, 0.2) 0px 0px 3px 0px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 1px 0px, rgba(0, 0, 0, 0.4) 0px 0px 3px 0px;
+  }
+}
+.fullName {
+}
+.email {
+  margin-top: 10px;
+}

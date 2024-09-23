@@ -1,0 +1,75 @@
+.form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  padding: 50px;
+  background-color: #fff;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: start;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 1px 0px, rgba(0, 0, 0, 0.2) 0px 0px 3px 0px;
+}
+.title {
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+}
+.label {
+  width: 100%;
+  position: relative;
+  &.datePicker {
+    width: 210px;
+  }
+}
+.input {
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+}
+.error {
+  color: red;
+  position: absolute;
+  font-size: 14px;
+}
+.select {
+  width: 100%;
+  & p {
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
+.selectWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.selectItem {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  & input {
+    margin: 0;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+}
+.button {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: rgb(25, 118, 210);
+  color: #fff;
+  padding: 10px 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  &:hover {
+    background-color: rgb(14, 92, 170);
+  }
+}
