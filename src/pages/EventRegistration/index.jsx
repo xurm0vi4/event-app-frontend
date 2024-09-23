@@ -21,7 +21,7 @@ const EventRegistration = () => {
 
   const onSubmit = async (values) => {
     try {
-      const { data } = await axios.post(`http://localhost:5000/events/${id}`, values);
+      const { data } = await axios.post(`https://event-app-backend-nlp9.onrender.com/events/${id}`, values);
       console.log(data);
       alert('Success');
       navigate('/');

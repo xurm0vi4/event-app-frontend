@@ -18,7 +18,7 @@ const Events = () => {
   useEffect(() => {
     const fetchEvents = async () => {
       try {
-        const { data } = await axios.get(`http://localhost:5000/events`, {
+        const { data } = await axios.get(`https://event-app-backend-nlp9.onrender.com/events`, {
           params: { page: currentPage - 1, sortBy: sortKey },
         });
         setEvents(data.events);

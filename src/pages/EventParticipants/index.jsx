@@ -19,7 +19,7 @@ const EventParticipants = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/events/${id}`)
+      .get(`https://event-app-backend-nlp9.onrender.com/events/${id}`)
       .then((response) => setData(response.data))
       .catch((err) => console.log(err));
   }, [id]);
